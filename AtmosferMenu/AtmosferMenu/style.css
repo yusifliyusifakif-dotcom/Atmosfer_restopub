@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding:0;
+    background:#0a0a0a;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo{
+    width:220px;
+    max-width:85%;
+}
+
+h1{
+    color:#d4af37;
+    margin-top:15px;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons a{
+    display:inline-block;
+    margin:5px;
+    padding:10px 15px;
+    text-decoration:none;
+    border:1px solid #d4af37;
+    color:#d4af37;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.buttons a:hover{
+    background:#d4af37;
+    color:black;
+}
+
+.search{
+    padding:20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.search input{
+    width:100%;
+    padding:12px;
+    border:1px solid #d4af37;
+    background:#111;
+    color:white;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+@media(max-width:768px){
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    max-width:320px;
+    margin:20px auto;
+}
+
+.cat-card{
+    width:90px;
+    height:80px;
+}
+
+}
+
+/* MENYU */
+
+.menu{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+h2{
+    color:#d4af37;
+    margin-top:35px;
+    margin-bottom:15px;
+    border-bottom:1px solid #d4af37;
+    padding-bottom:10px;
+    font-size:22px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:12px 15px;
+    margin-bottom:8px;
+
+    background:#151515;
+    border:1px solid #2a2a2a;
+    border-radius:10px;
+}
+
+.item span:first-child{
+    flex:1;
+}
+
+.item span:last-child{
+    color:#d4af37;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+/* KATEQORİYA AÇILIB-BAĞLANMASI */
+
+.category-content{
+    display:none;
+}
+
+.category-content.active{
+    display:block;
+}
