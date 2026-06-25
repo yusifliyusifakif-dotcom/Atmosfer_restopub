@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atmosfer Resto & Pub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg" class="logo" alt="Atmosfer Logo">
+
+
+<h1>ATMOSFER RESTO & PUB</h1>
+
+<p>📍 Qax şəhəri, Heydər Əliyev Prospekti 27</p>
+
+<div class="buttons">
+    <a href="tel:+994556690034">📞 Zəng et</a>
+    <a href="https://instagram.com/atmosfer_restopub">Instagram</a>
+    <a href="https://tiktok.com/@atmosfer_restopub">TikTok</a>
+</div>
+
+
+</header>
+
+<div class="categories">
+
+<div class="cat-card" onclick="toggleCategory('soyuq')">
+    <span>🥒</span>
+    <h3>Soyuq Qəlyanaltılar</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('salatlar')">
+    <span>🥗</span>
+    <h3>Salatlar</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('souslar')">
+    <span>🥫</span>
+    <h3>Souslar</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('esas')">
+    <span>🍖</span>
+    <h3>Əsas Yeməklər</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('deniz')">
+    <span>🐟</span>
+    <h3>Dəniz Məhsulları</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('pivemezeleri')">
+    <span>🍟</span>
+    <h3>Pivə Məzələri</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('susepive')">
+    <span>🍺</span>
+    <h3>Şüşə Pivələr</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('cellekpive')">
+    <span>🍻</span>
+    <h3>Çəllək Pivələri</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('alkoqol')">
+    <span>🥃</span>
+    <h3>Alkoqollu İçkilər</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('serin')">
+    <span>🥤</span>
+    <h3>Sərin İçkilər</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('isti')">
+    <span>☕</span>
+    <h3>İsti İçkilər</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('desert')">
+    <span>🍰</span>
+    <h3>Desertlər</h3>
+</div>
+
+<div class="cat-card" onclick="toggleCategory('qelyan')">
+    <span>💨</span>
+    <h3>Qəlyanlar</h3>
+</div>
+
+</div>
+
+<div class="menu">
+
+<h2 id="esas">SOYUQ QƏLYANALTILAR</h2>
+
+<div class="item"><span>Tərəvəz buketi</span><span>3 ₼</span></div>
+<div class="item"><span>Xiyar turşusu</span><span>3 ₼</span></div>
+<div class="item"><span>Kələm turşusu</span><span>3 ₼</span></div>
+<div class="item"><span>Pendir</span><span>3 ₼</span></div>
+<div class="item"><span>Süzmə</span><span>3 ₼</span></div>
+<div class="item"><span>Acika</span><span>2 ₼</span></div>
+<div class="item"><span>Pendir assorti</span><span>10 ₼</span></div>
+<div class="item"><span>Turşu assorti</span><span>5 ₼</span></div>
+
+<h2 id="salatlar">SALATLAR</h2>
+
+<div class="item"><span>Çoban salatı</span><span>4 ₼</span></div>
+<div class="item"><span>Çoban salatı pendirli</span><span>4.50 ₼</span></div>
+<div class="item"><span>Atmosfer salatı</span><span>8 ₼</span></div>
+<div class="item"><span>Badımcan qızartması</span><span>5 ₼</span></div>
+
+<h2 id="souslar">SOUSLAR</h2>
+
+<div class="item"><span>Ketçup</span><span>1 ₼</span></div>
+<div class="item"><span>Mayonez</span><span>1 ₼</span></div>
+<div class="item"><span>Pendirli</span><span>2 ₼</span></div>
+<div class="item"><span>Sarımsaqlı</span><span>2 ₼</span></div>
+<div class="item"><span>Barbekü</span><span>2 ₼</span></div>
+<div class="item"><span>Şirin çili</span><span>2 ₼</span></div>
+<div class="item"><span>Xardal</span><span>2 ₼</span></div>
+<div class="item"><span>Tartar</span><span>2 ₼</span></div>
+
+<h2 id="esas">ƏSAS YEMƏKLƏR</h2>
+
+<div class="item"><span>Pomidor yumurta</span><span>4 ₼</span></div>
+<div class="item"><span>Cız-bız</span><span>6 ₼</span></div>
+<div class="item"><span>Tava kababı</span><span>7 ₼</span></div>
+<div class="item"><span>Çoban qovurma</span><span>10 ₼</span></div>
+<div class="item"><span>Nar qovurma</span><span>10 ₼</span></div>
+<div class="item"><span>Tuşonka</span><span>9 ₼</span></div>
+<div class="item"><span>Qaymaqlı can əti</span><span>10 ₼</span></div>
+<div class="item"><span>Turşulu can əti</span><span>10 ₼</span></div>
+<div class="item"><span>Ləngət və free</span><span>9 ₼</span></div>
+<div class="item"><span>Tabaka</span><span>15 ₼</span></div>
+<div class="item"><span>Toyuq stek</span><span>9 ₼</span></div>
+<div class="item"><span>Qənəd</span><span>7 ₼</span></div>
+<div class="item"><span>Fajitos krivetli</span><span>15 ₼</span></div>
+<div class="item"><span>Fajitos toyuqlu</span><span>9 ₼</span></div>
+<div class="item"><span>Fajitos can əti</span><span>12 ₼</span></div>
+<div class="item"><span>Antrikotlu sac</span><span>30 ₼</span></div>
+<div class="item"><span>Göbələk kababı</span><span>6 ₼</span></div>
+<div class="item"><span>Dil kababı</span><span>10 ₼</span></div>
+<div class="item"><span>Toyuq kababı</span><span>7 ₼</span></div>
+<div class="item"><span>Hinduşka lüləsi nar ilə</span><span>12 ₼</span></div>
+<div class="item"><span>Gürcü xəngəli</span><span>1.2 ₼</span></div>
+<div class="item"><span>Gürcü xəngəli (qızardılmış)</span><span>1.6 ₼</span></div>
+
+<h2 id="deniz">DƏNİZ MƏHSULLARI</h2>
+
+<div class="item"><span>Krivetka (çay)</span><span>6 ₼</span></div>
+<div class="item"><span>Krivetka (dəniz)</span><span>8 ₼</span></div>
+<div class="item"><span>Xərçəng</span><span>8 ₼</span></div>
+<div class="item"><span>Lobster</span><span>50 ₼</span></div>
+<div class="item"><span>Tempura</span><span>11 ₼</span></div>
+<div class="item"><span>Dorado balığı</span><span>20-30 ₼</span></div>
+<div class="item"><span>Belamur balığı</span><span>8-25 ₼</span></div>
+<div class="item"><span>Sazan balığı</span><span>8-25 ₼</span></div>
+<div class="item"><span>Xan balığı</span><span>7-25 ₼</span></div>
+<div class="item"><span>Sudak balığı</span><span>5-10 ₼</span></div>
+<div class="item"><span>Lasos balığı</span><span>8-40 ₼</span></div>
+<div class="item"><span>Çupra balığı</span><span>13-15 ₼</span></div>
+<div class="item"><span>Farel balığı</span><span>10 ₼</span></div>
+<div class="item"><span>Naxa balığı</span><span>8 ₼</span></div>
+<div class="item"><span>Beluqa balığı</span><span>20 ₼</span></div>
+<div class="item"><span>Asetirin balığı</span><span>25 ₼</span></div>
+<div class="item"><span>Qızıl balıq</span><span>20 ₼</span></div>
+
+<h2 id="pivemezeleri">PİVƏ MƏZƏLƏRİ</h2>
+
+<div class="item"><span>Noxud</span><span>2 ₼</span></div>
+<div class="item"><span>Noxud qızartma</span><span>3 ₼</span></div>
+<div class="item"><span>Tum</span><span>2 ₼</span></div>
+<div class="item"><span>Tum (qovrulmuş)</span><span>2.50 ₼</span></div>
+<div class="item"><span>Araxis</span><span>4 ₼</span></div>
+<div class="item"><span>Qoz ləpəsi (Fındıq)</span><span>5 ₼</span></div>
+<div class="item"><span>Cipsi (Lays)</span><span>3 ₼</span></div>
+<div class="item"><span>Cipsi (Doritos)</span><span>4 ₼</span></div>
+<div class="item"><span>Saçaq pendir</span><span>3 ₼</span></div>
+<div class="item"><span>Saçaq pendiri (qız.)</span><span>4 ₼</span></div>
+<div class="item"><span>Saçaq pendir bulyonlu</span><span>4 ₼</span></div>
+<div class="item"><span>Pətənə</span><span>4 ₼</span></div>
+<div class="item"><span>Pətənə turşulu</span><span>5 ₼</span></div>
+<div class="item"><span>Boğaz</span><span>4 ₼</span></div>
+<div class="item"><span>Boğaz turşulu</span><span>5 ₼</span></div>
+<div class="item"><span>Bildirçin</span><span>4.50 ₼</span></div>
+<div class="item"><span>Düşbərə (qızardılmış)</span><span>4 ₼</span></div>
+<div class="item"><span>Girs (qızardılmış)</span><span>4 ₼</span></div>
+<div class="item"><span>Toyuq popkorn</span><span>5 ₼</span></div>
+<div class="item"><span>Göbələk cipsi</span><span>4.50 ₼</span></div>
+<div class="item"><span>Göbələk nuggets</span><span>5 ₼</span></div>
+<div class="item"><span>Pendir çubuqları</span><span>6 ₼</span></div>
+<div class="item"><span>Soğan halqaları</span><span>4 ₼</span></div>
+<div class="item"><span>Qrenki</span><span>4 ₼</span></div>
+<div class="item"><span>Qrenki pendirli</span><span>5 ₼</span></div>
+<div class="item"><span>Kilka</span><span>3.50 ₼</span></div>
+<div class="item"><span>Hamsi suxarili</span><span>5 ₼</span></div>
+<div class="item"><span>Şamayka</span><span>4 ₼</span></div>
+<div class="item"><span>Farel</span><span>9 ₼</span></div>
+<div class="item"><span>Dorado</span><span>15 ₼</span></div>
+<div class="item"><span>Manqalüstü</span><span>4 ₼</span></div>
+<div class="item"><span>İveriya</span><span>5 ₼</span></div>
+<div class="item"><span>Oxotnik</span><span>4 ₼</span></div>
+<div class="item"><span>Sardelka</span><span>6 ₼</span></div>
+
+<h2 id="cellekpive">ÇƏLLƏK PİVƏLƏRİ</h2>
+
+<div class="item"><span>Xırdalan 0.33</span><span>1.50 ₼</span></div>
+<div class="item"><span>Xırdalan 0.40</span><span>1.70 ₼</span></div>
+<div class="item"><span>Xırdalan 0.50</span><span>2 ₼</span></div>
+
+<div class="item"><span>Xırdalan N/F 0.33</span><span>2 ₼</span></div>
+<div class="item"><span>Xırdalan N/F 0.40</span><span>2.20 ₼</span></div>
+<div class="item"><span>Xırdalan N/F 0.50</span><span>2.50 ₼</span></div>
+
+<div class="item"><span>Salyan Brewery 0.40</span><span>1.30 ₼</span></div>
+
+<div class="item"><span>Abşeron 0.40</span><span>6 ₼</span></div>
+
+<h2 id="susepive">ŞÜŞƏ PİVƏLƏR</h2>
+
+<div class="item"><span>Xırdalan</span><span>4 ₼</span></div>
+<div class="item"><span>Xırdalan N/F</span><span>4.50 ₼</span></div>
+<div class="item"><span>Kuller</span><span>4.50 ₼</span></div>
+<div class="item"><span>Efes Draft</span><span>5 ₼</span></div>
+<div class="item"><span>Efes Zero</span><span>4 ₼</span></div>
+
+<h2 id="alkoqol">ALKOQOLLU İÇKİLƏR</h2>
+
+<div class="item"><span>Araq</span><span>20-95 ₼</span></div>
+<div class="item"><span>Sierra Silver (50ML/0.5L/1L)</span><span>5/50/75 ₼</span></div>
+<div class="item"><span>Olmeca Silver (50ML/0.5L/1L)</span><span>6/60/90 ₼</span></div>
+<div class="item"><span>Jagermeister (50ML/0.5L/1L)</span><span>6/55/90 ₼</span></div>
+<div class="item"><span>Chivas Regal 12 (50ML/0.5L/1L)</span><span>8/70/130 ₼</span></div>
+<div class="item"><span>Jack Daniels (50ML/0.5L/1L)</span><span>8/75/140 ₼</span></div>
+<div class="item"><span>Jameson Irish (50ML/0.5L/1L)</span><span>8/70/130 ₼</span></div>
+<div class="item"><span>Konyak (50ML/0.5L/1L)</span><span>8/70/130 ₼</span></div>
+
+<h2 id="serin">SƏRİN İÇKİLƏR</h2>
+
+<div class="item"><span>Cola / Fanta / Sprite</span><span>3 ₼</span></div>
+<div class="item"><span>Cola / Fanta / Sprite 1L</span><span>3 ₼</span></div>
+<div class="item"><span>Ice Tea banka</span><span>3 ₼</span></div>
+<div class="item"><span>Bizon</span><span>2 ₼</span></div>
+<div class="item"><span>Hell</span><span>2.50 ₼</span></div>
+<div class="item"><span>Redbul</span><span>6 ₼</span></div>
+<div class="item"><span>Sarıkız</span><span>2 ₼</span></div>
+<div class="item"><span>Qax suyu</span><span>1 ₼</span></div>
+<div class="item"><span>Sirab qazlı</span><span>3.50 ₼</span></div>
+<div class="item"><span>Sirab qazsız</span><span>3 ₼</span></div>
+<div class="item"><span>Limonat (Qax)</span><span>2 ₼</span></div>
+<div class="item"><span>Tərxun (Qax)</span><span>2 ₼</span></div>
+<div class="item"><span>Limonat (Gürcü)</span><span>4 ₼</span></div>
+<div class="item"><span>Tərxun (Gürcü)</span><span>4 ₼</span></div>
+<div class="item"><span>Meyvə şirəsi</span><span>4 ₼</span></div>
+<div class="item"><span>Kompot</span><span>5 ₼</span></div>
+
+<h2 id="isti">İSTİ İÇKİLƏR</h2>
+
+<div class="item"><span>Çaynik çay</span><span>2 ₼</span></div>
+<div class="item"><span>Çay və dəzgah</span><span>15 ₼</span></div>
+<div class="item"><span>Cappuccino</span><span>4 ₼</span></div>
+<div class="item"><span>Latte</span><span>4 ₼</span></div>
+<div class="item"><span>Espresso</span><span>3 ₼</span></div>
+<div class="item"><span>Americano</span><span>3 ₼</span></div>
+
+<h2 id="desert">DESERTLƏR</h2>
+
+<div class="item"><span>Mürəbbə</span><span>4-8 ₼</span></div>
+<div class="item"><span>Şokolad</span><span>4 ₼</span></div>
+<div class="item"><span>Snikers</span><span>3 ₼</span></div>
+<div class="item"><span>Rulet (popkek)</span><span>5 ₼</span></div>
+<div class="item"><span>Dondurma</span><span>4 ₼</span></div>
+<div class="item"><span>Portağal</span><span>3 ₼</span></div>
+<div class="item"><span>Alma</span><span>3 ₼</span></div>
+<div class="item"><span>Meyvə assorti</span><span>12 ₼</span></div>
+
+<h2 id="qelyan">QƏLYANLAR</h2>
+
+<div class="item"><span>Çaşqada</span><span>15 ₼</span></div>
+<div class="item"><span>Qreyfurtda</span><span>25 ₼</span></div>
+<div class="item"><span>Ananasda</span><span>30 ₼</span></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
